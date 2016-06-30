@@ -1,0 +1,394 @@
+#AnalogBots's Limited Filter - Highly customized from Ment's
+
+# Currency
+# Maps
+# Unique Gear
+# Rare Gear
+# Socket/Links & RGB
+# Gems
+# Misc Items
+# Divination Cards
+# Maps
+# Flasks
+# Jewels
+# Rings,Amulets & Belts
+# Normal-Magic Gear
+# 
+#-----------------------------------------------------------------------------------------------------------
+ 
+# Currency
+ 
+Show
+  BaseType "Mirror of Kalandra" "Eternal Orb" "Exalted Orb" "Albino Rhoa Feather"
+  PlayAlertSound 5 300
+  SetFontSize 45
+  SetTextColor 0 0 0
+  SetBackgroundColor 255 0 255 200
+  SetBorderColor 0 0 0
+ 
+Show
+  BaseType "Divine Orb" "Chaos Orb" "Blessed Orb" "Regal Orb" "Vaal Orb" "Gemcutter's Prism" "Orb of Fusing" "Cartographer's Chisel"
+  PlayAlertSound 5 250
+  SetFontSize 40
+  SetTextColor 255 255 50
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 255 50
+ 
+Show
+  BaseType "Orb of Regret" "Orb of Scouring" "Glassblower's Bauble"
+  PlayAlertSound 5 100
+  SetTextColor 255 255 50
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 255 50
+
+Show
+  BaseType "Portal Scroll" "Scroll of Wisdom"
+  SetFontSize 35
+  SetTextColor 255 255 150
+  SetBackgroundColor 0 0 0 200
+
+Show
+  BaseType "Perandus Coin" "Silver Coin"
+  PlayAlertSound 4 200
+  SetFontSize 35
+  SetTextColor 0 255 34 200
+  SetBackgroundColor 0 0 0 255
+  SetBorderColor 0 255 34 200
+  
+Show
+  Class "Stackable Currency" 
+  SetFontSize 35
+  SetTextColor 255 255 150
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 255 150
+  
+# Labyrinth Keys
+Show
+  BaseType "Silver Key" "Treasure Key" "Golden Key"
+  SetFontSize 40
+  SetTextColor 235 247 5 255
+  SetBorderColor 235 247 5 255
+  
+
+  
+Show
+  LinkedSockets = 6
+  PlayAlertSound 1 300
+  SetFontSize 45
+  SetTextColor 255 255 153
+  SetBackgroundColor 250 0 0 220
+  SetBorderColor 255 255 153
+ 
+Show
+  Sockets = 6
+  PlayAlertSound 3 150
+  SetTextColor 255 255 153
+  SetBorderColor 255 255 153
+ 
+Show
+  LinkedSockets = 5
+  SetFontSize 40
+  PlayAlertSound 2 150
+  SetTextColor 255 255 153
+  SetBackgroundColor 250 0 0 150
+
+Show
+  BaseType "Talisman"
+  SetFontSize 45
+  SetBorderColor 200 150 200
+  PlayAlertSound 5 100
+
+# Jewels
+ 
+Show
+  Class "Jewel"
+  SetFontSize 40
+  PlayAlertSound 3 100
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 0 255 0 255
+
+# Unique Gear (Help me to fill this list)
+ 
+Show
+  BaseType "Gavel" "Agate Amulet" "Prophecy Wand" "Imperial Bow" "Occultist's Vestment" "Infernal Axe" "Vaal Gauntlets" "Leather Belt" "Gold Amulet" "Prismatic Ring" "Gold Ring" "Vaal Axe" "Spine Bow" "Fishing Rod" "Vaal Sceptre"
+  Rarity = Unique
+  PlayAlertSound 1 300
+  SetFontSize 45
+  SetTextColor 255 0 255
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 0 255
+ 
+Show
+  BaseType "Glorious Plate" "Nightmare Bascinet" "Slaughter Knife" "Diamond Ring" "Ursine Pelt" "Chain Belt" "Penetrating Arrow Quiver" "Murder Mitts" "Amethyst Ring" "Granite Flask" "Siege Axe" "Vaal Mask" "Kite Shield" "Judgement Staff" "Vile Staff"
+  Rarity = Unique
+  PlayAlertSound 2 200
+  SetFontSize 45
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 0 255
+ 
+# New Uniques ( Temp Location )
+ 
+#Show
+#  BaseType "Decorative Axe" "Carnal Armour" "Fiend Dagger" "Amber Amulet" "Ranger Bow" "Serpentine Staff" "Soldier Gloves" "Lapis Amulet"  "Military Staff" "Sage Wand" "Rusted Hatchet" "Rusted Sword"
+#  Rarity = Unique
+#  PlayAlertSound 2 100
+#  SetFontSize 45
+#  SetBackgroundColor 0 0 0 200
+#  SetBorderColor 120 200 120
+ 
+# Trash Unique List, Thanks - Rhaegar_G
+ 
+#Show
+  #BaseType "The Screaming Eagle" "Dyadus" "Limbsplit" "Darkscorn" "Last Resort" "Mark of the Doubting Knight" "Brutus' Lead Sprinkler" "Nycta's Lantern" "Chober Chaber" "Voidhome" "Rebuke of the Vaal" "Oro's Sacrifice" "Queen's Decree" "Fencoil" "Moonsorrow" "Ashrend" "Ambu's Charge" "Bramblejack" "Bronn's Lithe" "The Covenant" "Hirri's Ire" "Lightbane Raiment" "Zahndethus' Cassock" "Deerstalker" "Dusktoe" "Gang's Momentum" "Nomic's Storm" "Ondar's Flight" "Shavronne's Pace" "Sin Trek" "Hrimsorrow" "Shackles of The Wretched" "The Broken Crown" "Ezomyte Peak" "Heatshiver" "Honourhome" "Hrimnor's Resolve" "Malachai's Simula" "Veil of the Night" "Chalice ofHorrors" "Jaws of Agony" "Maligaro's Lens" "Springleaf" "Titicus' Span" "Araku Tiki" "Karui Ward" "Ungil's Harmony" "Belt of the Deceiver" "Bloodboil" "Asphyxia's Wrath"
+  #Rarity = Unique
+  #SetTextColor 200 70 0 200
+  #SetFontSize 40
+  #PlayAlertSound 8 100
+ 
+Show
+  Rarity = Unique
+  SetFontSize 40
+  PlayAlertSound 8 100  
+  SetBorderColor 120 200 120
+
+# Rare Gear
+
+#Divine
+Show
+  Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+  Rarity = Rare
+  ItemLevel >= 75
+  SetTextColor 255 255 0
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 255 255 0 170
+ 
+#Chaos
+Show
+  Class "Amulets" "Belts" "Body Armours" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers" "Rings" "Sceptres" "Shields" "Small Relics" "Staves" "Thrusting One Hand Swords" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands"
+  Rarity = Rare
+  ItemLevel >= 60
+  SetTextColor 255 255 0
+  SetBackgroundColor 0 0 0 200
+
+Show
+  Rarity = Rare
+  DropLevel >= 1
+  SetFontSize 30
+  SetTextColor 255 255 0
+  SetBackgroundColor 0 0 0 180
+   
+# Chromatic Recipe
+  
+Show
+  SocketGroup RGB
+  PlayAlertSound 3 70
+  SetFontSize 25
+  SetBackgroundColor 0 0 0 180
+  SetTextColor 255 255 150
+
+# Gems
+ 
+Show
+  Class Gem
+  BaseType "Portal" "Empower" "Enhance" "Enlighten" "Added Chaos Damage"
+  PlayAlertSound 3 300
+  SetFontSize  30
+  SetTextColor 0 255 255
+  SetBorderColor 0 255 255
+  SetBackgroundColor 100 0 0 255
+ 
+Show
+  Class Gem
+  BaseType Vaal
+  SetBorderColor 0 255 255
+ 
+Show
+  Class Gem
+  Quality >= 1
+  Quality <= 9
+  SetFontSize 30
+  SetTextColor 0 255 255
+  SetBorderColor 0 255 255 
+  SetBackgroundColor 0 0 0 100  
+ 
+Show
+  Class Gem
+  Quality >= 10
+  Quality <= 14
+  PlayAlertSound 3 70
+  SetFontSize  30
+  SetTextColor 0 255 255
+  SetBorderColor 0 255 255
+  SetBackgroundColor 100 0 0 150
+ 
+Show
+  Class Gem
+  Quality >= 15
+  Quality <= 20
+  PlayAlertSound 2 70
+  SetFontSize 35
+  SetTextColor 0 255 255
+  SetBorderColor 0 255 255    
+  SetBackgroundColor 100 0 0 200
+ 
+# Misc Items
+ 
+Show
+  Class "Map Fragment" "Labyrinth Map Item"
+  SetFontSize 35
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+   
+Show
+  Class "Utility Flask"
+ 
+Show
+  Class "Microtransactions"  
+ 
+Show
+  Class "Hideout Doodads"    
+   
+Show
+  Class Quest
+ 
+# Divination Cards
+
+# Unique Divination Cards
+ 
+Show
+  Class "Divination Card"
+# (Missing on the client) "The Dragon" "The Queen's Tenacity"        
+  BaseType "Anarchy's Price" "The Fletcher" "The Surveyor" "The Thaumaturgist" "The Vast" "Audacity" "Bowyer's Dream" "Hunter's Reward" "Last Hope" "The Queen" "Wealth and Power" "The Dragon's Heart" "The Dragon" "The Avenger" "The Feast" "The Fox" "The Trial" "Time-Lost Relic" "House of Mirrors" "The Wind" "The Union" "The Watcher" "The Pact" "The Pack Leader" "The King's Heart" "Humility" "Abandoned Wealth" "The Brittle Emperor" "The Battle Born" "The Doctor" "The Drunken Aristocrat" "The Fiend" "The Gladiator" "The Hoarder" "Hope" "The Hunger" "The Poet" "The Sun" "Vinia's Token" "Birth of the Three" "The Flora's Gift" "The Last One Standing" "The Pack Leader"
+  PlayAlertSound 2 250
+  SetFontSize 40  
+  SetTextColor 0 255 34 255
+  SetBackgroundColor 0 0 0 250
+  SetBorderColor 200 150 200
+ 
+# Rare Divination Cards
+ 
+Show
+  Class "Divination Card"
+  BaseType "Gift of the Gemling Queen" "The Enlightened" "Volatile Power" "The Doppelganger" "Hunter's Resolve" "The Gemcutter" "The Conduit" "The Survivalist" "Grave Knowledge" "Coveted Possession" "Rain of Chaos" "Lucky Connections" "Jack in the Box" "The Inventor" "Gemcutter's Promise" "The Road to Power" "The Summoner" "Three Faces in the Dark" "The Cataclysm" "Chaotic Disposition" "The One With All" "The Siren" "The Wrath"
+  PlayAlertSound 2 200
+  SetFontSize 40  
+  SetTextColor 0 255 34 200
+  SetBackgroundColor 0 0 0 250
+  SetBorderColor 255 255 255 180
+
+# Normal Divination Cards
+  
+Show
+  Class "Divination Card"
+  SetFontSize 35  
+  SetTextColor 0 255 34 200
+  SetBackgroundColor 0 0 0 180
+  SetBorderColor 255 255 255 180
+
+# Maps
+ 
+Show
+  Class Map
+  Rarity = Normal
+  SetFontSize 35
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+ 
+Show
+  Class Map
+  Rarity = Magic
+  SetFontSize 35
+  SetTextColor 77 195 255
+  SetBorderColor 77 195 255
+ 
+Show
+  Class Map
+  Rarity = Rare
+  SetFontSize 35
+  SetTextColor 255 255 0
+  SetBorderColor 255 255 0
+ 
+Show
+  Class Map
+  Rarity = Unique
+  SetFontSize 35
+  SetTextColor 200 70 0
+  SetBackgroundColor 100 0 0 200
+  SetBorderColor 200 70 0
+ 
+# Flasks
+ 
+Hide
+  Class "Life Flask" "Mana Flask" "Hybrid Flask"
+  Quality >= 0
+  Quality <= 14
+  ItemLevel < 64
+  Rarity <= Magic
+  SetFontSize 30
+  SetBackgroundColor 0 0 0 200
+ 
+Show
+  Class "Life Flask" "Mana Flask" "Hybrid Flask"
+  Quality >= 15
+  SetFontSize 30
+  SetBackgroundColor 0 0 0 200
+ 
+Show
+  BaseType "Diamond Flask" "Granite Flask" "Topaz Flask" "Sapphire Flask" "Ruby Flask" "Quicksilver Flask"
+  Rarity >= Normal
+  SetFontSize 25
+  SetBackgroundColor 0 0 0 150
+  SetBorderColor 255 255 255 180
+ 
+# Jewels
+ 
+Show
+  Class "Jewel"
+  SetFontSize 40
+  PlayAlertSound 3 100
+  SetBackgroundColor 0 0 0 200
+  SetBorderColor 0 255 0 255
+
+#chance list
+Show
+  #uncomment and change the next line if you care
+  #BaseType "Gavel" "Judgement Staff" "Prophecy Wand" "Occultist's Vestment" "Glorious Plate" "Gold Ring" "Amethyst Ring" "Imperial Bow" "Sorcerer Boots"
+  BaseType "Sorcerer Boots"
+  Rarity = Normal
+  SetFontSize 35
+  SetBackgroundColor 0 0 0 200  
+  SetBorderColor 255 255 255 180    
+  
+# Rings & Amulets
+ 
+Show
+  Class Rings Amulets Belts
+  Rarity = Normal
+  SetFontSize 30
+  SetTextColor 255 255 255 180
+  SetBackgroundColor 0 0 0 180
+ 
+Show
+  Class Rings Amulets Belts
+  Rarity = Magic
+  SetFontSize 30
+  SetBackgroundColor 0 0 0 180
+ 
+  
+Hide
+  Class "Ring" "Amulet" "Belt"
+  ItemLevel >= 60
+  ItemLevel < 75
+  Rarity Magic
+
+Hide
+  Class "One Hand" "Claw" "Mace" "Sceptre" "Bow" "Dagger" "Wand" "Two Hand" "Staves" "Gloves" "Boots" "Body Armours" "Helmets" "Shields"
+  DropLevel < 60
+  Rarity <= Rare
+  LinkedSockets < 5
+
+Hide
+  Class "One Hand" "Claw" "Mace" "Sceptre" "Bow" "Dagger" "Wand" "Two Hand" "Staves" "Quivers" "Belts" "Gloves" "Boots" "Body Armours" "Helmets" "Shields"
+  ItemLevel < 75
+  Rarity <= Rare
+  LinkedSockets < 5
